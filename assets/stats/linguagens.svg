@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="440" height="200" viewBox="0 0 440 200" font-family="'Segoe UI',Ubuntu,'Helvetica Neue',Arial,sans-serif">
+  <rect x="0.5" y="0.5" width="439" height="199" rx="12" fill="#050c26" stroke="#1d2a5c"/>
+  <text x="24" y="38" font-size="17" font-weight="700" fill="#ffffff">Linguagens mais usadas</text>
+  <text x="24" y="66" font-size="13" fill="#c9d6ff">JavaScript</text>
+  <text x="416" y="66" font-size="13" fill="#7d8fc4" text-anchor="end">97,7%</text>
+  <rect x="24" y="72" width="392" height="6" rx="3" fill="#16224d"/>
+  <rect x="24" y="72" width="382.9" height="6" rx="3" fill="#3fa9ff"><title>JavaScript: 97.7%</title></rect>
+  <text x="24" y="92" font-size="13" fill="#c9d6ff">CSS</text>
+  <text x="416" y="92" font-size="13" fill="#7d8fc4" text-anchor="end">1,2%</text>
+  <rect x="24" y="98" width="392" height="6" rx="3" fill="#16224d"/>
+  <rect x="24" y="98" width="6.0" height="6" rx="3" fill="#3fa9ff"><title>CSS: 1.2%</title></rect>
+  <text x="24" y="118" font-size="13" fill="#c9d6ff">TypeScript</text>
+  <text x="416" y="118" font-size="13" fill="#7d8fc4" text-anchor="end">1,0%</text>
+  <rect x="24" y="124" width="392" height="6" rx="3" fill="#16224d"/>
+  <rect x="24" y="124" width="6.0" height="6" rx="3" fill="#3fa9ff"><title>TypeScript: 1.0%</title></rect>
+  <text x="24" y="144" font-size="13" fill="#c9d6ff">HTML</text>
+  <text x="416" y="144" font-size="13" fill="#7d8fc4" text-anchor="end">0,1%</text>
+  <rect x="24" y="150" width="392" height="6" rx="3" fill="#16224d"/>
+  <rect x="24" y="150" width="6.0" height="6" rx="3" fill="#3fa9ff"><title>HTML: 0.1%</title></rect>
+  <text x="24" y="170" font-size="13" fill="#c9d6ff">Python</text>
+  <text x="416" y="170" font-size="13" fill="#7d8fc4" text-anchor="end">0,0%</text>
+  <rect x="24" y="176" width="392" height="6" rx="3" fill="#16224d"/>
+  <rect x="24" y="176" width="6.0" height="6" rx="3" fill="#3fa9ff"><title>Python: 0.0%</title></rect>
+</svg>

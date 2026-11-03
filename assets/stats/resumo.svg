@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="440" height="200" viewBox="0 0 440 200" font-family="'Segoe UI',Ubuntu,'Helvetica Neue',Arial,sans-serif">
+  <rect x="0.5" y="0.5" width="439" height="199" rx="12" fill="#050c26" stroke="#1d2a5c"/>
+  <text x="24" y="38" font-size="17" font-weight="700" fill="#ffffff">Estatísticas</text>
+  <rect x="24" y="67" width="4" height="10" rx="2" fill="#3fa9ff"/>
+  <text x="38" y="76" font-size="14" fill="#c9d6ff">Contribuições (último ano)</text>
+  <text x="416" y="76" font-size="14" font-weight="700" fill="#ffffff" text-anchor="end">511</text>
+  <rect x="24" y="93" width="4" height="10" rx="2" fill="#3fa9ff"/>
+  <text x="38" y="102" font-size="14" fill="#c9d6ff">Commits</text>
+  <text x="416" y="102" font-size="14" font-weight="700" fill="#ffffff" text-anchor="end">31</text>
+  <rect x="24" y="119" width="4" height="10" rx="2" fill="#3fa9ff"/>
+  <text x="38" y="128" font-size="14" fill="#c9d6ff">Pull requests</text>
+  <text x="416" y="128" font-size="14" font-weight="700" fill="#ffffff" text-anchor="end">2</text>
+  <rect x="24" y="145" width="4" height="10" rx="2" fill="#3fa9ff"/>
+  <text x="38" y="154" font-size="14" fill="#c9d6ff">Repositórios públicos</text>
+  <text x="416" y="154" font-size="14" font-weight="700" fill="#ffffff" text-anchor="end">12</text>
+  <rect x="24" y="171" width="4" height="10" rx="2" fill="#3fa9ff"/>
+  <text x="38" y="180" font-size="14" fill="#c9d6ff">Estrelas recebidas</text>
+  <text x="416" y="180" font-size="14" font-weight="700" fill="#ffffff" text-anchor="end">0</text>
+</svg>

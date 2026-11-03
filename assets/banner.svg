@@ -1,0 +1,184 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-label="Herick — Desenvolvedor Full-Stack">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#02040f"/>
+      <stop offset="0.6" stop-color="#050c26"/>
+      <stop offset="1" stop-color="#0a0718"/>
+    </linearGradient>
+    <radialGradient id="nebBlue" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#2456c9" stop-opacity="0.5"/>
+      <stop offset="1" stop-color="#2456c9" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="nebWarm" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#8a3b1c" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#8a3b1c" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="nebViolet" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#4b2a9e" stop-opacity="0.3"/>
+      <stop offset="1" stop-color="#4b2a9e" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="orb" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#7cc8ff" stop-opacity="0.7"/>
+      <stop offset="1" stop-color="#3fa9ff" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="name" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#c9dcff"/>
+    </linearGradient>
+    <linearGradient id="rule" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#b8703f" stop-opacity="0"/>
+      <stop offset="0.3" stop-color="#b8703f"/>
+      <stop offset="0.7" stop-color="#3fa9ff"/>
+      <stop offset="1" stop-color="#3fa9ff" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="trail" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0.9"/>
+    </linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="3" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="soft" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="16"/>
+    </filter>
+    <clipPath id="frame"><rect width="1200" height="320" rx="18"/></clipPath>
+    <style>
+      .tw  { animation: tw 3.2s ease-in-out infinite; }
+      .tw2 { animation: tw 4.6s ease-in-out infinite 1.1s; }
+      .tw3 { animation: tw 2.4s ease-in-out infinite 0.6s; }
+      @keyframes tw { 0%,100% { opacity: .25 } 50% { opacity: 1 } }
+
+      .float  { animation: float 6s ease-in-out infinite; }
+      .float2 { animation: float 7.5s ease-in-out infinite 1.5s; }
+      @keyframes float { 0%,100% { transform: translateY(0) } 50% { transform: translateY(-8px) } }
+
+      .pulse { animation: pulse 4s ease-in-out infinite; }
+      @keyframes pulse { 0%,100% { opacity: .25 } 50% { opacity: .55 } }
+
+      .spin { transform-box: fill-box; transform-origin: center; animation: spin 40s linear infinite; }
+      @keyframes spin { to { transform: rotate(360deg) } }
+
+      .shoot { animation: shoot 11s ease-in infinite 3s; opacity: 0; }
+      @keyframes shoot {
+        0%   { transform: translate(0,0); opacity: 0 }
+        2%   { opacity: 1 }
+        10%  { transform: translate(560px,170px); opacity: 0 }
+        100% { transform: translate(560px,170px); opacity: 0 }
+      }
+
+      .label { font: 600 14px 'Fira Code','JetBrains Mono',Consolas,monospace; letter-spacing: 5px; fill: #d08a58; }
+      .title { font: 800 84px 'Segoe UI',Ubuntu,'Helvetica Neue',Arial,sans-serif; letter-spacing: 1px; }
+      .sub   { font: 500 21px 'Segoe UI',Ubuntu,'Helvetica Neue',Arial,sans-serif; fill: #b4c3ec; }
+      .desc  { font: 400 16px 'Segoe UI',Ubuntu,'Helvetica Neue',Arial,sans-serif; fill: #7d8fc4; }
+    </style>
+  </defs>
+
+  <g clip-path="url(#frame)">
+    <!-- Céu -->
+    <rect width="1200" height="320" fill="url(#bg)"/>
+    <ellipse cx="900" cy="110" rx="420" ry="230" fill="url(#nebBlue)"/>
+    <ellipse cx="1120" cy="320" rx="300" ry="170" fill="url(#nebWarm)"/>
+    <ellipse cx="260" cy="20" rx="380" ry="160" fill="url(#nebViolet)"/>
+
+    <!-- Estrelas -->
+    <g fill="#ffffff">
+      <g class="tw">
+        <circle cx="34" cy="28" r="1.2"/><circle cx="148" cy="62" r="0.9"/><circle cx="242" cy="18" r="1.4"/>
+        <circle cx="388" cy="44" r="1"/><circle cx="512" cy="22" r="1.3"/><circle cx="604" cy="84" r="0.8"/>
+        <circle cx="702" cy="30" r="1.1"/><circle cx="858" cy="20" r="1.5"/><circle cx="1044" cy="40" r="1"/>
+        <circle cx="1156" cy="92" r="1.2"/><circle cx="92" cy="290" r="1"/><circle cx="470" cy="300" r="1.2"/>
+      </g>
+      <g class="tw2">
+        <circle cx="74" cy="132" r="0.8"/><circle cx="196" cy="236" r="1.1"/><circle cx="318" cy="276" r="0.9"/>
+        <circle cx="560" cy="150" r="1"/><circle cx="650" cy="250" r="1.3"/><circle cx="742" cy="296" r="0.9"/>
+        <circle cx="922" cy="276" r="1.1"/><circle cx="1088" cy="190" r="0.9"/><circle cx="1180" cy="250" r="1.3"/>
+        <circle cx="980" cy="64" r="0.8"/><circle cx="430" cy="110" r="0.8"/>
+      </g>
+      <g class="tw3" fill="#cfe6ff">
+        <circle cx="18" cy="210" r="1.6"/><circle cx="286" cy="120" r="1.6"/><circle cx="618" cy="40" r="1.8"/>
+        <circle cx="804" cy="250" r="1.6"/><circle cx="1128" cy="140" r="1.8"/><circle cx="1010" cy="300" r="1.4"/>
+      </g>
+      <g class="tw2" fill="#bfe3ff">
+        <path d="M680 120 l2 -9 l2 9 l9 2 l-9 2 l-2 9 l-2 -9 l-9 -2 z"/>
+        <path d="M1150 30 l1.5 -6 l1.5 6 l6 1.5 l-6 1.5 l-1.5 6 l-1.5 -6 l-6 -1.5 z"/>
+      </g>
+    </g>
+
+    <!-- Estrela cadente -->
+    <g class="shoot">
+      <line x1="420" y1="10" x2="520" y2="40" stroke="url(#trail)" stroke-width="2" stroke-linecap="round"/>
+    </g>
+
+    <!-- Planeta-cubo (voxel) -->
+    <g transform="translate(760 200)">
+      <g class="float2">
+        <circle cx="0" cy="0" r="74" fill="url(#orb)" class="pulse"/>
+        <g transform="matrix(6.67 3.83 -6.67 3.83 0 -46)">
+          <rect width="6" height="6" fill="#3d93f2"/>
+          <rect x="1" y="1" width="2" height="1" fill="#3fb35a"/><rect x="1" y="2" width="1" height="2" fill="#3fb35a"/>
+          <rect x="3" y="3" width="2" height="2" fill="#e3c34a"/><rect x="4" y="2" width="1" height="1" fill="#3fb35a"/>
+          <rect x="0" y="5" width="2" height="1" fill="#e8f4ff"/>
+        </g>
+        <g transform="matrix(6.67 3.83 0 7.67 -40 -23)">
+          <rect width="6" height="6" fill="#1d5cc0"/>
+          <rect x="2" y="1" width="2" height="2" fill="#2f8a45"/><rect x="3" y="3" width="1" height="2" fill="#b89a32"/>
+          <rect x="0" y="4" width="1" height="1" fill="#2f8a45"/>
+        </g>
+        <g transform="matrix(6.67 -3.83 0 7.67 0 0)">
+          <rect width="6" height="6" fill="#154a9c"/>
+          <rect x="1" y="2" width="2" height="1" fill="#26733a"/><rect x="1" y="3" width="1" height="2" fill="#26733a"/>
+          <rect x="4" y="1" width="1" height="2" fill="#9a8128"/>
+        </g>
+      </g>
+    </g>
+
+    <!-- Espada de madeira (pixel art original) -->
+    <g transform="translate(1010 168) rotate(40)">
+      <ellipse cx="0" cy="0" rx="150" ry="44" fill="none" stroke="#9fc8ff" stroke-opacity="0.22" stroke-width="1.2" stroke-dasharray="3 12" class="spin"/>
+      <g class="float">
+        <g transform="translate(0 -180)">
+          <!-- aura suave -->
+          <rect x="-26" y="0" width="52" height="360" rx="26" fill="#9fc8ff" filter="url(#soft)" class="pulse"/>
+          <g filter="url(#glow)">
+            <!-- lâmina -->
+            <rect x="-4"  y="0"  width="8"  height="8"   fill="#c98a5a"/>
+            <rect x="-12" y="8"  width="24" height="8"   fill="#b8703f"/>
+            <rect x="-16" y="16" width="32" height="248" fill="#a3602f"/>
+            <rect x="-16" y="16" width="8"  height="248" fill="#c98a5a"/>
+            <rect x="8"   y="16" width="8"  height="248" fill="#7a4220"/>
+            <rect x="-2"  y="20" width="4"  height="240" fill="#86492a"/>
+            <!-- veios da madeira -->
+            <rect x="-8" y="60"  width="4" height="28" fill="#93542a"/>
+            <rect x="2"  y="140" width="4" height="36" fill="#93542a"/>
+            <rect x="-8" y="210" width="4" height="22" fill="#93542a"/>
+            <!-- guarda -->
+            <rect x="-44" y="264" width="88" height="16" fill="#a3602f"/>
+            <rect x="-44" y="264" width="88" height="4"  fill="#c98a5a"/>
+            <rect x="-44" y="276" width="88" height="4"  fill="#6b3a1c"/>
+            <rect x="-44" y="264" width="6"  height="16" fill="#7a4220"/>
+            <rect x="38"  y="264" width="6"  height="16" fill="#7a4220"/>
+            <!-- empunhadura -->
+            <rect x="-10" y="280" width="20" height="56" fill="#7a4220"/>
+            <rect x="-10" y="280" width="6"  height="56" fill="#8f5129"/>
+            <rect x="-10" y="294" width="20" height="3"  fill="#55290f"/>
+            <rect x="-10" y="310" width="20" height="3"  fill="#55290f"/>
+            <rect x="-10" y="326" width="20" height="3"  fill="#55290f"/>
+            <!-- pomo -->
+            <rect x="-16" y="336" width="32" height="24" rx="10" fill="#a3602f"/>
+            <rect x="-16" y="336" width="32" height="5"  rx="2"  fill="#c98a5a"/>
+            <rect x="-6"  y="343" width="12" height="10" rx="4"  fill="#55290f"/>
+          </g>
+        </g>
+      </g>
+    </g>
+
+    <!-- Texto -->
+    <text x="70" y="96" class="label">DESENVOLVEDOR FULL-STACK</text>
+    <text x="66" y="180" class="title" fill="url(#name)">Herick</text>
+    <text x="70" y="222" class="sub">TypeScript · NestJS · Angular · React · PostgreSQL</text>
+    <text x="70" y="256" class="desc">APIs, dashboards e automações orientadas a dados.</text>
+
+    <rect x="0" y="316" width="1200" height="4" fill="url(#rule)"/>
+  </g>
+</svg>
