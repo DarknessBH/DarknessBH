@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="900" height="320" viewBox="0 0 900 320" font-family="'Segoe UI',Ubuntu,'Helvetica Neue',Arial,sans-serif">
   <rect x="0.5" y="0.5" width="899" height="319" rx="12" fill="#050c26" stroke="#1d2a5c"/>
   <text x="24" y="38" font-size="17" font-weight="700" fill="#ffffff">Contribuições por mês</text>
-  <text x="24" y="60" font-size="13" fill="#7d8fc4">Últimos 12 meses · 512 no total</text>
+  <text x="24" y="60" font-size="13" fill="#7d8fc4">Últimos 12 meses · 516 no total</text>
   <line x1="56" x2="876" y1="262.0" y2="262.0" stroke="#1d2a5c" stroke-width="1"/>
   <text x="46" y="266.0" font-size="11" fill="#7d8fc4" text-anchor="end">0</text>
   <line x1="56" x2="876" y1="217.5" y2="217.5" stroke="#16224d" stroke-width="1"/>
@@ -33,7 +33,7 @@
   <path d="M757.5 262 V120.0 Q757.5 116.0 761.5 116.0 H785.5 Q789.5 116.0 789.5 120.0 V262 Z" fill="#3fa9ff"><title>out/2026: 164 contribuições</title></path>
   <text x="773.5" y="282" font-size="12" fill="#7d8fc4" text-anchor="middle">out</text>
   <text x="773.5" y="108.0" font-size="12" font-weight="700" fill="#c9d6ff" text-anchor="middle">164</text>
-  <path d="M825.8 262 V230.4 Q825.8 226.4 829.8 226.4 H853.8 Q857.8 226.4 857.8 230.4 V262 Z" fill="#3fa9ff"><title>nov/2026: 40 contribuições</title></path>
+  <path d="M825.8 262 V226.8 Q825.8 222.8 829.8 222.8 H853.8 Q857.8 222.8 857.8 226.8 V262 Z" fill="#3fa9ff"><title>nov/2026: 44 contribuições</title></path>
   <text x="841.8" y="282" font-size="12" fill="#7d8fc4" text-anchor="middle">nov</text>
-  <text x="841.8" y="218.4" font-size="12" font-weight="700" fill="#c9d6ff" text-anchor="middle">40</text>
+  <text x="841.8" y="214.8" font-size="12" font-weight="700" fill="#c9d6ff" text-anchor="middle">44</text>
 </svg>
