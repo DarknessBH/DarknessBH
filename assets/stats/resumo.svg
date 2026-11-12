@@ -6,10 +6,10 @@
   <text x="416" y="76" font-size="14" font-weight="700" fill="#ffffff" text-anchor="end">523</text>
   <rect x="24" y="93" width="4" height="10" rx="2" fill="#3fa9ff"/>
   <text x="38" y="102" font-size="14" fill="#c9d6ff">Commits</text>
-  <text x="416" y="102" font-size="14" font-weight="700" fill="#ffffff" text-anchor="end">48</text>
+  <text x="416" y="102" font-size="14" font-weight="700" fill="#ffffff" text-anchor="end">37</text>
   <rect x="24" y="119" width="4" height="10" rx="2" fill="#3fa9ff"/>
   <text x="38" y="128" font-size="14" fill="#c9d6ff">Pull requests</text>
-  <text x="416" y="128" font-size="14" font-weight="700" fill="#ffffff" text-anchor="end">14</text>
+  <text x="416" y="128" font-size="14" font-weight="700" fill="#ffffff" text-anchor="end">3</text>
   <rect x="24" y="145" width="4" height="10" rx="2" fill="#3fa9ff"/>
   <text x="38" y="154" font-size="14" fill="#c9d6ff">Repositórios públicos</text>
   <text x="416" y="154" font-size="14" font-weight="700" fill="#ffffff" text-anchor="end">13</text>
